@@ -8,6 +8,6 @@ hamburger.addEventListener('click' , () => {
 const resumeButton = document.getElementById('resume-button');
 resumeButton.addEventListener('click', function(event) {
     event.preventDefault();
-    const resumeFilePath = 'Images/VASANTH R.pdf';
+    const resumeFilePath = 'VASANTH R.pdf';
     window.open(resumeFilePath, '_blank');
 });
